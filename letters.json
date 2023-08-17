@@ -1,0 +1,86 @@
+{
+    "Full-Stack": {
+      "Companies": [
+        {
+          "company": "GM",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Renaissance Center",
+          "address-2": "Bldg 300",
+          "city-state-zip": "Detroit, MI 48265-1000"
+        },
+        {
+            "company": "Ford",
+            "recipient": "Hiring Manager",
+            "recipient-prefix": "na",
+            "address-1": "Ford",
+            "address-2": "18900 Michigan Ave",
+            "city-state-zip": "Dearborn, MI 48126"
+          }
+      ],
+      "full-position": "Full-Stack Engineer"
+    },
+    "DevOps": {
+      "Companies": [
+        {
+          "company": "GM",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Renaissance Center",
+          "address-2": "Bldg 300",
+          "city-state-zip": "Detroit, MI 48265-1000"
+        },
+        {
+            "company": "Cloudflare",
+            "recipient": "Hiring Manager",
+            "recipient-prefix": "na",
+            "address-1": "Cloudflare",
+            "address-2": "101 Townsend St",
+            "city-state-zip": "San Francisco, CA 94107"
+          }
+      ],
+      "full-position": "DevOps Engineer"
+    },
+    "Network": {
+      "Companies": [
+        {
+          "company": "Jobot",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Jobot",
+          "address-2": "3101 West Coast Hwy",
+          "city-state-zip": "Newport Beach, CA 92663"
+        },
+        {
+          "company": "Amazon Prime Air",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Amazon Inc.",
+          "address-2": "410 Terry Ave N",
+          "city-state-zip": "Seattle 98109, WA"
+        }
+      ],
+      "full-position": "Network Engineer"
+    },
+    "Site-Reliability": {
+      "Companies": [
+        {
+          "company": "Autodesk",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Autodesk Inc.",
+          "address-2": "111 McInnis Parkway",
+          "city-state-zip": "San Rafael, CA 94903"
+        },
+        {
+          "company": "Blue Origin",
+          "recipient": "Hiring Manager",
+          "recipient-prefix": "na",
+          "address-1": "Blue Origin LLC",
+          "address-2": "21218 76th Ave S",
+          "city-state-zip": "Kent, WA 98032, USA"
+        }
+      ],
+      "full-position": "Site Reliability Engineer"
+    }
+  }

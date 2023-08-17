@@ -1,0 +1,44 @@
+\documentclass[11pt]{article}% Use 10pt font
+\usepackage{Format}
+
+\pagestyle{fancy}
+\fancyhf{}
+\let\oldheadrule\headrule% Copy \headrule into \oldheadrule
+\renewcommand{\headrule}{\color{SectionColor}\oldheadrule}% Add colour to \headrule
+\lhead{{\Huge{\textcolor{SectionColor}{\textbf{Daniel Card}}}}}% Name in large bold font
+%\chead{{\large{U.S. Citizen}}}       % Optional citizenship
+%\rhead{\large{Software Engineer}} % Position Seeking
+\renewcommand{\headrulewidth}{1pt}
+
+\begin{document}
+
+	\vspace{0.5in}
+	\begin{minipage}[h]{\linewidth}
+		\begin{center}
+			\small
+			% Github
+			\href{https://github.com/dancard32}{github.com/dancard32}
+			$\rvert$
+			% Cell number
+			(810) 728-6754 $\rvert$
+			% Mail address
+			\href{mailto:dcard@umich.edu}{dcard@umich.edu} $\rvert$
+			% Linkedin
+			\href{https://www.linkedin.com/in/dan-card/}{linkedin.com/in/dan-card} $\rvert$
+			% Portfolio
+			\href{https://dancard32.github.io/website/#/home}{dancard32.github.io}
+		\end{center}
+	\end{minipage}
+
+	\import{rep/}{template}
+
+	\vspace{-10pt}
+
+	{\textcolor{SectionColor}{\rule{4cm}{1pt}}}
+
+	\textcolor{SectionColor}{Dan Card}\\
+	\textcolor{SectionColor}{Georgia Tech Graduate CS Student and Teaching Assistant}\\
+	\textcolor{SectionColor}{M.S.E. Aerospace Engineering -- Computation}\\
+	\textcolor{SectionColor}{B.S.E. Aerospace Engineering}\\
+	\textcolor{SectionColor}{Former rocket scientist, current software engineer}
+\end{document}

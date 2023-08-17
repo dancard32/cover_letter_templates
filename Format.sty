@@ -1,0 +1,45 @@
+\ProvidesPackage{Format}
+\usepackage[a4paper, left=0.6in,right=0.6in,top=0.5in,bottom=0.1in, headsep = 8pt]{geometry} 	% Margins/Page layout
+\usepackage{times}				% Use New Times Roman Font
+\usepackage{fancyhdr}			% Used to create the header
+\usepackage{graphicx}           % Used for photo input
+\usepackage{amsmath}			% Use math/greek symbols
+\usepackage[parfill]{parskip}	% Turns off auto-indents
+\usepackage{hyperref}			% Used for Clickable links
+\usepackage{xcolor}				% Used for different text colors \textcolor{color}{text}
+\usepackage[export]{adjustbox}
+\usepackage{enumitem}			% Changes the labels in itemize
+\usepackage{setspace}			% Used for single-spacing
+\usepackage{titlesec}			% Changes the spacing before/after \section{}
+\usepackage{lipsum}				% Text filler
+\usepackage{changepage}
+\usepackage{import}       % Import .tex files
+\usepackage{comment}
+\usepackage{calligra}
+\usepackage{wrapfig}
+
+% Stylish changes
+%\titlespacing\section{0pt}{0pt plus 4pt minus 2pt}{5pt plus 5pt minus 5pt}
+\titlespacing\section{0pt}{5pt plus 0pt minus 0pt}{5pt plus 0pt minus 0pt}
+\renewcommand{\labelitemi}{$\circ$}	% Changes the bullets to circles
+\newcommand\Tau{\mathrm{T}}			% Used for SGT symbol
+\setlist[itemize]{leftmargin=0.2in}% Changes the alignment of bulleted lists
+\newcommand\RULE{\hrule height 1pt}
+
+
+\hypersetup{
+	colorlinks = true,	% Removes url border
+	urlcolor = black	% Changes url color to black
+}
+
+% Removes the large spacing before \begin{itemize} \end{itemize} by \itemize*
+\newenvironment{itemize*}%
+  {
+	\vspace{-0.35cm}
+	\begin{itemize}%
+    \setlength{\itemsep}{2pt}%
+    \setlength{\parskip}{2pt}}%
+  {\end{itemize}\vspace{0.25cm}}
+
+
+\definecolor{SectionColor}{rgb}{0.4, 0.6, 0.8}
